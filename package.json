@@ -1,0 +1,30 @@
+{
+  "name": "dell-projector-controller",
+  "version": "1.0.0",
+  "description": "Simple utility to control Dell brand projectors",
+  "main": "index.js",
+  "bin": {
+    "optoma-projector": "index.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "projector-controller": "^1.0.3"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelarz/dell-projector-controller.git"
+  },
+  "author": "McNutt Consulting, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thelarz/dell-projector-controller/issues"
+  },
+  "homepage": "https://github.com/thelarz/dell-projector-controller#readme"
+}
