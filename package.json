@@ -4,7 +4,7 @@
   "description": "Simple utility to control Dell brand projectors",
   "main": "index.js",
   "bin": {
-    "optoma-projector": "index.js"
+    "dell-projector": "index.js"
   },
   "preferGlobal": true,
   "dependencies": {
